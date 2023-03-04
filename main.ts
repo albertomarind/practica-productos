@@ -339,3 +339,8 @@ productosConvertidos.forEach((producto: any) => {
     let div = document.createElement('div');
     div.innerText = producto.description;
 });
+
+type ProductoDummy = {
+    title:string;
+    price:number;
+};   
